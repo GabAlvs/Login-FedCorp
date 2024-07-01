@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: url('Banner-assets/Banner\ 1.png') no-repeat center center fixed;
+  /* Caminho para a imagem de fundo */
+  background-size: cover;
+  /* Ajusta o tamanho da imagem de fundo */
+}
+
+.login-container {
+  position: absolute;
+  left: 58.13%;
+  right: 11.35%;
+  top: 21.35%;
+  bottom: 8.46%;
+  background: #F8FBFF;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.logo {
+  position: absolute;
+  width: 190px;
+  height: 62px;
+  left: -700px;
+  /* Ajusta a posição à esquerda da logo */
+  top: -100px;
+  /* Ajusta a posição vertical da logo */
+  background: url('Banner-assets/logo-fedcorp.png') no-repeat center center;
+  background-size: contain;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #164274;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  width: 69px;
+  height: 22px;
+  left: 842px;
+  top: 329px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #636D78;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #164274;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.input-group input:focus {
+  border-color: #55B3D8;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #164274;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #55B3D8
+}
+
+.segimob-login {
+  position: absolute;
+  width: 552px;
+  height: 553px;
+  left: -41px;
+  top: 120px;
+  background: url('Banner-assets/Segimob-login\ 1.png') no-repeat center center;
+  background-size: contain;
+}
+
+.frase1 {
+  position: absolute;
+  left: 25.33%;
+  right: 45.68%;
+  top: 35.94%;
+  bottom: 53.39%;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+
+.frase2 {
+  position: absolute;
+  left: 25.33%;
+  right: 52.05%;
+  top: 46.88%;
+  bottom: 48.7%;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+.forgot-password {
+  width: 194px;
+  height: 22px;
+  left: 905px;
+  top: 300px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  color: #636D78;
+}
