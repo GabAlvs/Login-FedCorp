@@ -5,9 +5,9 @@ body {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   background: url('Banner-assets/Banner\ 1.png') no-repeat center center fixed;
-  /* Caminho para a imagem de fundo */
+
   background-size: cover;
-  /* Ajusta o tamanho da imagem de fundo */
+
 }
 
 .login-container {
@@ -28,9 +28,7 @@ body {
   width: 190px;
   height: 62px;
   left: -700px;
-  /* Ajusta a posição à esquerda da logo */
   top: -100px;
-  /* Ajusta a posição vertical da logo */
   background: url('Banner-assets/logo-fedcorp.png') no-repeat center center;
   background-size: contain;
 }
